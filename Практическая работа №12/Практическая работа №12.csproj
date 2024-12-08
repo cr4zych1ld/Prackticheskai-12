@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Практическая_работа__12</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="game074.ico" />
+    <None Remove="image\calc.png" />
+    <None Remove="image\exit.png" />
+    <None Remove="image\game074.ico" />
+    <None Remove="image\infoCreator.png" />
+    <None Remove="image\infoProga.png" />
+    <None Remove="image\numberone.png" />
+    <None Remove="image\numbertwo.png" />
+    <None Remove="image\reset.png" />
+    <None Remove="numberone.png" />
+    <None Remove="numbertwo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\calc.png" />
+    <Resource Include="image\exit.png" />
+    <Resource Include="image\game074.ico" />
+    <Resource Include="image\infoCreator.png" />
+    <Resource Include="image\infoProga.png" />
+    <Resource Include="image\numberone.png" />
+    <Resource Include="image\numbertwo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="game074.ico" />
+    <Resource Include="image\reset.png" />
+    <Resource Include="numberone.png" />
+    <Resource Include="numbertwo.png" />
+  </ItemGroup>
+
+</Project>
